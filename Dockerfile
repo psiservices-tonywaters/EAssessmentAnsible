@@ -46,6 +46,7 @@ RUN mkdir out
 COPY playbook.yml .
 COPY template.yml .
 COPY update.sh .
+RUN chmod +x update.sh
 
 RUN whoami && pwd && ls -la
 
