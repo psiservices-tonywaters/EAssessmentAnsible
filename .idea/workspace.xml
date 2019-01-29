@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3331e747-4015-4eac-9ad5-3a4084a8749b" name="Default" comment="" />
+    <list default="true" id="3331e747-4015-4eac-9ad5-3a4084a8749b" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,22 +13,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Dockerfile">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="808">
+              <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="playbook.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/playbook.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="555">
-              <caret line="49" column="32" selection-start-line="49" selection-start-column="32" selection-end-line="49" selection-end-column="32" />
+              <caret line="49" column="14" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="template.yml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/template.yml">
+      <file leaf-file-name="template.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="21">
               <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
@@ -98,9 +104,9 @@
       <list>
         <option value="$PROJECT_DIR$/docker-compose.yml" />
         <option value="$PROJECT_DIR$/push.sh" />
-        <option value="$PROJECT_DIR$/Dockerfile" />
-        <option value="$PROJECT_DIR$/playbook.yml" />
         <option value="$PROJECT_DIR$/templates/template.yml" />
+        <option value="$PROJECT_DIR$/playbook.yml" />
+        <option value="$PROJECT_DIR$/Dockerfile" />
       </list>
     </option>
   </component>
@@ -312,20 +318,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/template.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/playbook.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
-          <caret line="49" column="32" selection-start-line="49" selection-start-column="32" selection-end-line="49" selection-end-column="32" />
+          <caret line="49" column="14" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/template.yml">
+    <entry file="file://$PROJECT_DIR$/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="808">
+          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
         </state>
       </provider>
     </entry>

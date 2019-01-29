@@ -37,6 +37,7 @@ ENV ANSIBLE_SSH_PIPELINING True
 ENV PATH /ansible/bin:$PATH
 ENV PYTHONPATH /ansible/lib
 
+RUN mkdir out
 COPY playbook.yml .
 COPY template.yml .
 
