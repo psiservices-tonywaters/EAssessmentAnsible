@@ -47,7 +47,7 @@
 
     - name: Generate
       template:
-        src: "templates/template.yml"
+        src: "template.yml"
         dest: "out/{{ item['name'] }}.yml"
       with_items: "{{ services }}"
 
