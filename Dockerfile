@@ -1,6 +1,6 @@
 FROM centos:7
 
-RUN yum update -y && yum install -y epel-release && yum install -y ansible
+RUN yum update -y && yum install -y epel-release && yum install -y ansible && yum install -y wget
 
 #FROM gliderlabs/alpine:3.4
 #
