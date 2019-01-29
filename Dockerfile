@@ -44,7 +44,7 @@ ENV PYTHONPATH /ansible/lib
 
 RUN mkdir out
 COPY playbook.yml .
-COPY template.yml .
+COPY template.php .
 COPY update.sh .
 RUN chmod +x update.sh
 
