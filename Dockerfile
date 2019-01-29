@@ -43,4 +43,5 @@ COPY template.yml .
 
 RUN whoami && pwd && ls -la
 
-ENTRYPOINT ["ansible-playbook", "playbook.yml"]
+#ENTRYPOINT ["ansible-playbook", "playbook.yml"]
+CMD tail -f /dev/null
