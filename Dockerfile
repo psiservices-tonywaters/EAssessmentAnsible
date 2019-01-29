@@ -60,5 +60,5 @@ RUN cp oc /usr/bin/
 
 RUN oc version
 
-#CMD tail -f /dev/null
-ENTRYPOINT ["./update.sh"]
+CMD tail -f /dev/null
+#ENTRYPOINT ["./update.sh"]
