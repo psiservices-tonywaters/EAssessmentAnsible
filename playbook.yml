@@ -1,0 +1,55 @@
+---
+
+- hosts: 127.0.0.1
+  connection: local
+  vars:
+
+    services:
+    - name: cbi-web
+      port: 8091
+      path: /healthcheck
+    - name: cbi-my-institute-mock
+      port: 8093
+      path: /healthcheck
+    - name: geneses-core-services
+      port: 8080
+      path: /genesesWebservices/health
+    - name: geneses-core-services-atom
+      port: 8080
+      path: /genesesWebservices/health
+    - name: admin-web
+      port: 8080
+      path: /productmanagement/health
+    - name: lituk-web
+      port: 8080
+      path: /sta-web/health
+    - name: sta-web
+      port: 8080
+      path: /sta-web/health
+    - name: pay
+      port: 8381
+      path: /healthcheck
+    - name: cap
+      port: 8481
+      path: /
+    - name: results-portal
+      port: 8681
+      path: /healthcheck
+    - name: financial-document
+      port: 9011
+      path: /
+    - name: financial-document-atom
+      port: 9011
+      path: /
+
+
+  tasks:
+
+    - name: Generate
+      template:
+        src: "templates/template.yml"
+        dest: "out/{{ item['name'] }}.yml"
+      with_items: "{{ services }}"
+
+
+
