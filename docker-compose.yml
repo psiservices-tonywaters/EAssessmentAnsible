@@ -2,14 +2,14 @@ version: '2'
 
 services:
 
-  dashboard:
-    container_name: dashboard
-    image: registry.npd.learndirect.com/dashboard:master
-    build:
-      context: .
-      args:
-        - http_proxy
-        - https_proxy
+  ansible:
+    container_name: ansible
+    image: ansible
+    build: .
+#      context: .
+#      args:
+#        - http_proxy
+#        - https_proxy
 
 
 

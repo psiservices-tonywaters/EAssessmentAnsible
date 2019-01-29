@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 
 echo "Running OC binary"
 oc version
