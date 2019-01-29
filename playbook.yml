@@ -52,8 +52,8 @@
 
     - name: Generate
       template:
-        src: "template.yml"
-        dest: "out/{{ item['name'] }}.yml"
+        src: "template.php"
+        dest: "out/{{ item['name'] }}.php"
       with_items: "{{ services }}"
 
 
