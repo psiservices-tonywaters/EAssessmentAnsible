@@ -10,7 +10,7 @@ services:
       - "443:443"
       - "80:80"
     volumes:
-      - ./out:/etc/ansible/conf.d
+      - ./out:/ansible/playbooks/out
 #      - ./files/ansible.conf:/etc/ansible/ansible.conf:ro
 #    networks:
 #      - repo-net
