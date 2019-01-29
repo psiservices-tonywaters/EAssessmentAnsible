@@ -15,7 +15,7 @@ whoami && pwd && ls -la
 ansible-playbook playbook.yml
 
 ls -la out
-cat /out/admin-web.php
+cat out/admin-web.php
 
 
 
