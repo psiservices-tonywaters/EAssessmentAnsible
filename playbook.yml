@@ -47,7 +47,7 @@
 
     - name: Get values from file
       include_vars:
-        file: /ansible/playbooks/services_running.yaml
+        file: services_running.yaml
 #        name: services_running
 
     - name: Generate
