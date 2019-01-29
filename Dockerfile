@@ -3,6 +3,7 @@ FROM gliderlabs/alpine:3.4
 RUN \
   apk-install \
     curl \
+    wget \
     openssh-client \
     python \
     py-boto \
