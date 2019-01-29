@@ -45,6 +45,9 @@
 
   tasks:
 
+    - name: Get values from file
+
+
     - name: Generate
       template:
         src: "template.yml"
