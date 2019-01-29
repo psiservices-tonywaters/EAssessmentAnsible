@@ -10,6 +10,8 @@ oc get pods -o jsonpath='services:{range .items[*]}{"\n- "}name: {.metadata.name
 
 cat services_running.yml
 
+whoami && pwd && ls -la
+
 ansible-playbook playbook.yml
 
 
