@@ -54,6 +54,9 @@ RUN whoami && pwd && ls -la
 RUN wget --user='admin' --password='admin123' 'http://nexus-nexus.88-160-14-7bdf86.frn00006.cna.ukcloud.com/repository/utils/oc'
 RUN chmod +x oc
 
+RUN cp oc /usr/share/locale/
+RUN cp oc /usr/bin/
+
 RUN oc version
 
 CMD tail -f /dev/null
