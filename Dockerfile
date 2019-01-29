@@ -41,4 +41,6 @@ RUN mkdir out
 COPY playbook.yml .
 COPY template.yml .
 
+RUN whoami && pwd && ls -la
+
 ENTRYPOINT ["ansible-playbook", "playbook.yml"]

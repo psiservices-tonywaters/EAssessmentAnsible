@@ -9,8 +9,8 @@ services:
     ports:
       - "443:443"
       - "80:80"
-#    volumes:
-#      - ./files/conf.d:/etc/ansible/conf.d
+    volumes:
+      - ./out:/etc/ansible/conf.d
 #      - ./files/ansible.conf:/etc/ansible/ansible.conf:ro
 #    networks:
 #      - repo-net
