@@ -38,5 +38,6 @@ ENV PATH /ansible/bin:$PATH
 ENV PYTHONPATH /ansible/lib
 
 COPY playbook.yml .
+COPY template.yml .
 
 ENTRYPOINT ["ansible-playbook", "playbook.yml"]
