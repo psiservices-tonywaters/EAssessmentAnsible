@@ -40,6 +40,7 @@ ENV PYTHONPATH /ansible/lib
 RUN mkdir out
 COPY playbook.yml .
 COPY template.yml .
+COPY update.sh .
 
 RUN whoami && pwd && ls -la
 
