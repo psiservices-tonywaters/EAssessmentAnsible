@@ -45,7 +45,7 @@ RUN whoami && pwd && ls -la
 
 #ENTRYPOINT ["ansible-playbook", "playbook.yml"]
 
-RUN wget --user=admin --password=admin123 'http://nexus-nexus.88-160-14-7bdf86.frn00006.cna.ukcloud.com/repository/utils/oc'
+RUN wget --user='admin' --password='admin123' 'http://nexus-nexus.88-160-14-7bdf86.frn00006.cna.ukcloud.com/repository/utils/oc'
 RUN oc version
 
 #CMD tail -f /dev/null
