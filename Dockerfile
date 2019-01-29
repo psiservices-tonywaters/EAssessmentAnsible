@@ -37,4 +37,6 @@ ENV ANSIBLE_SSH_PIPELINING True
 ENV PATH /ansible/bin:$PATH
 ENV PYTHONPATH /ansible/lib
 
-ENTRYPOINT ["ansible-playbook"]
+COPY playbook.yml .
+
+ENTRYPOINT ["ansible-playbook", "playbook.yml"]
